@@ -1,0 +1,10 @@
+#Not even close to finished, don't use this.
+
+balancer:
+  build: .
+  expose:
+   - "80"
+  environment:
+   - KEY=VALUE
+  volumes:
+   - "":""
